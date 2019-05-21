@@ -126,3 +126,11 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+nav #navbarTogglerDemo01 {
+  display: flex;
+}
+nav #navbarTogglerDemo01 .navbar-nav {
+  justify-content: space-around;
+  display: flex;
+  width: 100%;
+}
