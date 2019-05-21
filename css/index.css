@@ -134,3 +134,6 @@ nav #navbarTogglerDemo01 .navbar-nav {
   display: flex;
   width: 100%;
 }
+nav #navbarTogglerDemo01 .navbar-nav a {
+  color: black;
+}
