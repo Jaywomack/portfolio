@@ -127,26 +127,26 @@ table {
   border-spacing: 0;
 }
 html body .btn {
-  background-color: #ef6817;
-  color: #21201f;
+  background-color: #934016;
+  color: white;
   border: 1.5px solid #21201f;
 }
 html body .btn:hover {
   background-color: #21201f;
-  color: #ef6817;
-  border: 1px solid #ef6817;
+  color: white;
+  border: 1px solid #934016;
 }
 nav {
-  background-color: #ef6817;
+  background-color: #934016;
 }
 nav #navbarTogglerDemo01 {
   width: 100vw;
-  background-color: #ef6817;
+  background-color: white;
 }
 nav #navbarTogglerDemo01 #JWlogo {
   width: 75px;
   height: 75px;
-  background-color: #ef6817;
+  background-color: #934016;
 }
 nav #navbarTogglerDemo01 .navbar-nav {
   justify-content: space-around;
@@ -159,23 +159,58 @@ nav #navbarTogglerDemo01 .navbar-nav a {
   padding: none;
 }
 #body {
-  background-color: #21201f;
+  background-color: #934016;
 }
 #body .jumbotron {
   background-color: #727271;
+  color: white;
+  border: 3px solid #383838;
+}
+@media (min-width: 575px) {
+  #body .jumbotron {
+    text-align: center;
+  }
+}
+#body .jumbotron .lead {
+  font-size: 2rem;
 }
 #body #horizontal-card {
   background: #383838;
-  color: #ef6817;
+  color: white;
+}
+#body #horizontal-card .card-header {
+  font-size: 3rem;
 }
 #body .row {
-  background-color: #ef6817;
+  background-color: #383838;
 }
 #body .row .card {
-  background-color: #21201f;
-  color: #ef6817;
+  background-color: #727271;
+  border: 3px solid #383838;
+  margin-bottom: 15px;
+  text-align: center;
+  color: white;
+}
+#body #overview-header {
+  background-color: #383838;
+  color: white;
+  text-align: center;
+  font-size: 3rem;
+  margin-bottom: 1.5rem;
 }
 #body article {
-  background-color: #ef6817;
-  color: #21201f;
+  background-color: #383838;
+  color: white;
+  display: flex;
+}
+#body article .p1,
+#body article .p2 {
+  font-size: 1.3rem;
+  width: 48%;
+}
+#body article .p2 {
+  float: right;
+}
+#body .footer {
+  color: black;
 }

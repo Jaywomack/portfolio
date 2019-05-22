@@ -1,28 +1,67 @@
 #body {
-    background-color: @color2;
+    background-color: @color1;
 
     .jumbotron {
         background-color: @color3;
+        color: white;
+        border: 3px solid @color5;
+
+        @media (min-width: 575px) {
+            text-align: center;
+        }
+
+        .lead{
+            font-size: 2rem;
+        }
     }
 
     #horizontal-card {
         background: @color5;
-        color: @color1;
-    }
+        color: white;
 
-    .row {
-        background-color: @color1;
-
-        .card { 
-            background-color: @color2;
-            color: @color1;
+        .card-header {
+            font-size: 3rem;
         }
     }
 
-    article {
-        background-color: @color1;
-        color: @color2;
+    .row {
+        background-color: @color5;
+        
+        
+        .card { 
+            background-color: @color3;
+            border: 3px solid @color5;
+            margin-bottom: 15px;
+            text-align: center;
+            color: white;
+            
+        }
     }
-
+    #overview-header {
+        background-color: @color5;
+        color: white;
+        text-align: center;
+        font-size: 3rem;
+        margin-bottom: 1.5rem;
+    }
+    article {
+        background-color: @color5;
+        color: white;
+        display: flex;
+        
+        
+        
+        .p1,
+        .p2 {
+            font-size: 1.3rem;
+            width: 48%;
+        }
+        .p2 {
+            float: right;
+        }
+    }
+    .footer {
+        color: black;
+    }
 
 }
