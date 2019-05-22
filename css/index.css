@@ -126,8 +126,27 @@ table {
   border-collapse: collapse;
   border-spacing: 0;
 }
+html body .btn {
+  background-color: #ef6817;
+  color: #21201f;
+  border: 1.5px solid #21201f;
+}
+html body .btn:hover {
+  background-color: #21201f;
+  color: #ef6817;
+  border: 1px solid #ef6817;
+}
+nav {
+  background-color: #ef6817;
+}
 nav #navbarTogglerDemo01 {
-  display: flex;
+  width: 100vw;
+  background-color: #ef6817;
+}
+nav #navbarTogglerDemo01 #JWlogo {
+  width: 75px;
+  height: 75px;
+  background-color: #ef6817;
 }
 nav #navbarTogglerDemo01 .navbar-nav {
   justify-content: space-around;
@@ -135,5 +154,28 @@ nav #navbarTogglerDemo01 .navbar-nav {
   width: 100%;
 }
 nav #navbarTogglerDemo01 .navbar-nav a {
+  font-size: 20px;
   color: black;
+  padding: none;
+}
+#body {
+  background-color: #21201f;
+}
+#body .jumbotron {
+  background-color: #727271;
+}
+#body #horizontal-card {
+  background: #383838;
+  color: #ef6817;
+}
+#body .row {
+  background-color: #ef6817;
+}
+#body .row .card {
+  background-color: #21201f;
+  color: #ef6817;
+}
+#body article {
+  background-color: #ef6817;
+  color: #21201f;
 }
