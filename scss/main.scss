@@ -1,5 +1,4 @@
 //Main: it should ONLY contain the imports for the above files.
-$test: red;
-#body {
- background-color: blue;
-}
+@import 'base';
+@import 'components';
+@import 'layout';
