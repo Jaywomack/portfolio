@@ -2,37 +2,19 @@
 
 //NavBar
 nav {
-    .navbar-toggler {
-        //hamburger button in mobile
+  .navbar-toggler {
+    //hamburger button in mobile
+  }
+
+  div {
+    background-color: rgb(122, 24, 24);
+
+    ul {
+      display: flex;
+      width: 100%;
+      justify-content: space-evenly;
     }
-
-    div {
-        background-color: black;
-
-        ul {
-            display: flex;
-            width: 100%;
-            justify-content: space-evenly;
-            
-            li{
-                color: white;
-
-               .navbar-nav .nav-link {
-                    color: white;
-                    border: 1px solid red;
-
-                }
-            }
-
-            
-               
-
-                
-            
-        }
-    }
-
+  }
 }
-
 
 //Footer
